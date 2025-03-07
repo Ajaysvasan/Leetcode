@@ -17,11 +17,12 @@ void SieveOfEratosthenes(int n)
         }
     }
 
+
     for (int p = 2; p <= n; p++)
         if (prime[p])
             cout << p << " ";
 }
 
 main(){
-    SieveOfEratosthenes(5);
+    SieveOfEratosthenes(10000000);
 }
